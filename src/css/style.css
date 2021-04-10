@@ -1,0 +1,84 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+* {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+}
+
+body {
+	overflow: hidden;
+	text-align: center;
+	color: beige;
+}
+
+.wrapper {
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+}
+
+.content{
+	overflow-y: scroll;
+}
+
+.content::-webkit-scrollbar {
+	display: none;
+}
+
+header{
+	height: 5vh;
+	background-color: black;
+	position: sticky;
+}
+
+footer {
+	background-color: black;
+	
+}
+
+section {
+	height: 95vh;
+}
+
+#presentation {
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(38,38,115,1) 25%, rgba(0,212,255,1) 100%);
+}
+
+#presentation h2{
+	padding-top: 20%;
+}
+
+#personal_info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(38,38,115,1) 65%, rgba(2,0,36,1) 100%);
+}
+
+.col {
+	padding-top: 10%;
+	border-radius: 10px;
+}
+
+.col__left {
+	padding: 40px 0 40px 0;
+	margin: 40px 10px 40px 10px;
+}
+
+.col__right {
+	margin: 40px 30px 40px 30px;
+}
+
+#personal_info img {
+	margin-top: 10px;
+	height: 300px;
+}
+
+#contact {
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(38,38,115,1) 65%, rgba(0,212,255,1) 100%);
+}
+
+.form {
+
+}
